@@ -167,10 +167,12 @@ section {
 }
 
 .hero h1 {
-    font-size: clamp(70px, 12vw, 150px);
-    line-height: 1;
-
-    margin: 15px 0;
+    font-family: 'Kanit', sans-serif;
+    font-size: clamp(70px, 12vw, 160px);
+    font-weight: 700;
+    line-height: 1.25;
+    padding: 20px 10px 10px;
+    overflow: visible;
 
     background: linear-gradient(
         180deg,

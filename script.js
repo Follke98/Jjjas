@@ -105,6 +105,10 @@ revealElements.forEach(element => {
    WATER DROP EFFECT
 ================================================= */
 
+/* =================================================
+   WATER DROP EFFECT
+================================================= */
+
 function createDrop() {
 
     const drop = document.createElement("div");
@@ -112,9 +116,10 @@ function createDrop() {
     drop.innerHTML = "💧";
 
     drop.style.position = "fixed";
-    drop.style.left = Math.random() * 100 + "vw";
+    drop.style.left = Math.random() * 95 + "vw"; /* 👈 ปรับจาก 100 เป็น 95 ป้องกันดันขอบจอ */
     drop.style.top = "-50px";
 
+    // ... (โค้ดส่วนที่เหลือคงไว้ตามเดิม)
     drop.style.fontSize =
         Math.random() * 15 + 10 + "px";
 

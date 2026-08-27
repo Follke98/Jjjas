@@ -63,7 +63,7 @@ topBtn.addEventListener("click", () => {
 ================================================= */
 
 const revealElements = document.querySelectorAll(
-    ".reason-card, .theory-card, .objective, .timeline-item, .benefit-card, .member, .feedback-box"
+    ".reason-card, .theory-card, .objective, .timeline-item, .benefit-card, .member, .feedback-box, .stat-card, .chart-box"
 );
 
 const observer = new IntersectionObserver(

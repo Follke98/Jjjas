@@ -1141,33 +1141,34 @@ footer p {
         grid-template-columns: 1fr;
     }
 /* =================================================
-   DOCUMENT SECTION
+   DOCUMENT SECTION CENTERING
 ================================================= */
 
 .document-section {
-    background: #041019; /* สีพื้นหลังโทนเข้มเข้ากับธีม */
+    text-align: center !important; /* จัดองค์ประกอบทั้งหมดให้อยู่ตรงกลาง */
     padding: 80px 8% 100px;
+    background: #041019;
 }
 
 .doc-buttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100% !important;
+    margin-top: 40px !important;
+    display: flex !important;
+    justify-content: center !important; /* จัดปุ่มให้อยู่กึ่งกลางแนวนอน */
+    align-items: center !important;
     gap: 20px;
     flex-wrap: wrap;
-    max-width: 700px;
-    margin: 0 auto;
 }
 
 .doc-buttons .btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
-    font-size: 16px;
+    gap: 8px;
+    padding: 12px 28px;
+    font-size: 15px;
     font-weight: 500;
-    padding: 14px 32px;
     border-radius: 50px;
-    min-width: 210px;
+    min-width: 190px;
     text-align: center;
 }

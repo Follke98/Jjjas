@@ -1140,4 +1140,26 @@ footer p {
     .survey-stats-grid {
         grid-template-columns: 1fr;
     }
+   /* =================================================
+   TEAM BUTTONS
+================================================= */
+
+.team-buttons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.team-buttons .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    min-width: 200px;
+    text-align: center;
+}
 }

@@ -1140,16 +1140,21 @@ footer p {
     .survey-stats-grid {
         grid-template-columns: 1fr;
     }
-   /* =================================================
+/* =================================================
    TEAM BUTTONS
 ================================================= */
 
 .team-buttons {
-    margin-top: 50px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 45px auto 0 auto; /* เว้นระยะห่างจากตารางสมาชิกและจัดกึ่งกลาง */
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 20px;
     flex-wrap: wrap;
+    position: relative;
+    z-index: 2;
 }
 
 .team-buttons .btn {
@@ -1157,9 +1162,11 @@ footer p {
     align-items: center;
     justify-content: center;
     gap: 8px;
-    font-size: 16px;
+    padding: 12px 28px;
+    font-size: 15px;
     font-weight: 500;
-    min-width: 200px;
+    border-radius: 50px;
+    min-width: 190px;
     text-align: center;
-}
-}
+   }
+

@@ -1140,6 +1140,7 @@ footer p {
     .survey-stats-grid {
         grid-template-columns: 1fr;
     }
+}
 /* =================================================
    DOCUMENT SECTION CENTERING
 ================================================= */

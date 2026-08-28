@@ -1141,29 +1141,33 @@ footer p {
         grid-template-columns: 1fr;
     }
 /* =================================================
-   TEAM BUTTONS
+   DOCUMENT SECTION
 ================================================= */
 
-.team-buttons {
-    grid-column: 1 / -1; /* บังคับยืดเต็มทุกคอลัมน์ใน Grid */
-    width: 100%;
-    margin-top: 40px;
+.document-section {
+    background: #041019; /* สีพื้นหลังโทนเข้มเข้ากับธีม */
+    padding: 80px 8% 100px;
+}
+
+.doc-buttons {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
+    max-width: 700px;
+    margin: 0 auto;
 }
 
-.team-buttons .btn {
+.doc-buttons .btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
-    padding: 12px 28px;
-    font-size: 15px;
+    gap: 10px;
+    font-size: 16px;
     font-weight: 500;
+    padding: 14px 32px;
     border-radius: 50px;
-    min-width: 190px;
+    min-width: 210px;
     text-align: center;
 }

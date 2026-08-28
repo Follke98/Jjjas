@@ -1145,16 +1145,14 @@ footer p {
 ================================================= */
 
 .team-buttons {
+    grid-column: 1 / -1; /* บังคับยืดเต็มทุกคอลัมน์ใน Grid */
     width: 100%;
-    max-width: 1200px;
-    margin: 45px auto 0 auto; /* เว้นระยะห่างจากตารางสมาชิกและจัดกึ่งกลาง */
+    margin-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
-    position: relative;
-    z-index: 2;
 }
 
 .team-buttons .btn {
@@ -1168,5 +1166,4 @@ footer p {
     border-radius: 50px;
     min-width: 190px;
     text-align: center;
-   }
 }
